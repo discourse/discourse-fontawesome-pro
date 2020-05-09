@@ -23,5 +23,5 @@ hooks:
     - exec:
         cd: $home/plugins/discourse-fontawesome-pro
         cmd:
-          - yarn install
+          - $home/plugins/discourse-fontawesome-pro/scripts/install.sh
 ```
