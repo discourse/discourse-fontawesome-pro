@@ -4,5 +4,5 @@ if ! [ -x "$(command -v yarn)" ]; then
         echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list &&\
         apt update &&\
         apt install -y yarn nodejs &&\
-        yarn install
 fi
+yarn install
