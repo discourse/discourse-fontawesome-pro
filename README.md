@@ -1,5 +1,7 @@
 # Install font awesome pro icons for Discourse
 
+https://meta.discourse.org/t/fontawesome-pro-icons/150871
+
 Use Font Awesome Pro icons for Discourse - This allows you to register and use any font awesome pro icons for your site, given a font awesome auth token.
 
 This requires a few extra step to enable:
