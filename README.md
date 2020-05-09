@@ -22,6 +22,7 @@ hooks:
           - git clone https://github.com/discourse/discourse-fontawesome-pro.git
     - exec:
         cd: $home/plugins/discourse-fontawesome-pro
+        raise_on_fail: false
         cmd:
           - $home/plugins/discourse-fontawesome-pro/scripts/install.sh
 ```
