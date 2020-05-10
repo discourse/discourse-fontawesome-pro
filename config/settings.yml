@@ -1,0 +1,10 @@
+plugins:
+  fa_icon_style:
+    default: "regular"
+    client: true
+    type: enum
+    choices:
+      - regular
+      - solid
+      - light
+      - duotone
