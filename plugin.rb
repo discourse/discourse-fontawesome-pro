@@ -6,7 +6,7 @@
 # authors: Jeff Wong
 # transpile_js: true
 
-register_asset 'stylesheets/common/discourse-fontawesome-pro.scss'
+register_asset 'stylesheets/common/fontawesome-pro.scss'
 
 after_initialize do
   prefix_mapping = { 'brands' => 'fab',
