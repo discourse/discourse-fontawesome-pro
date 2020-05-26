@@ -14,11 +14,13 @@ after_initialize do
                      'regular' => 'far',
                      'duotone' => 'fad',
                      'solid' => 'fas' }
-  sprite_source = "#{Rails.root}/plugins/discourse-fontawesome-pro/node_modules/@fortawesome/fontawesome-pro/sprites/"
-  sprite_dest = "#{Rails.root}/plugins/discourse-fontawesome-pro/svg-icons/"
+  sprite_source = "#{Rails.root}/plugins/discourse-fontawesome-pro/node_modules/@fortawesome/fontawesome-pro/sprites"
+  sprite_dest = "#{Rails.root}/plugins/discourse-fontawesome-pro/svg-icons"
   prefix_mapping.each do |style, prefix|
     fsource = "#{sprite_source}/#{style}.svg"
     fname = "#{sprite_dest}/#{style}.svg"
+    next unless File.file?(fname)
+
     File.open(fsource) do |source_file|
       contents = source_file.read
       contents.gsub!(/<symbol id="(?<id>.*)"/, "<symbol id=\"#{prefix}-\\k<id>\"")
