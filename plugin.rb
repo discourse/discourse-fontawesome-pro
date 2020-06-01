@@ -23,7 +23,7 @@ after_initialize do
 
     File.open(fsource) do |source_file|
       contents = source_file.read
-      contents.gsub!(/<symbol id="(?<id>.*)"/, "<symbol id=\"#{prefix}-\\k<id>\"")
+      contents.gsub!(/<symbol id="(?<id>.*)"/, "<symbol id=\"#{prefix}-\\k<id>\"") unless style == 'regular'
       File.open(fname, 'w+') { |f| f.write(contents) }
     end
   end
