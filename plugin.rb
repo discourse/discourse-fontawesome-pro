@@ -18,12 +18,12 @@ after_initialize do
   sprite_dest = "#{Rails.root}/plugins/discourse-fontawesome-pro/svg-icons"
   prefix_mapping.each do |style, prefix|
     fsource = "#{sprite_source}/#{style}.svg"
-    fname = "#{sprite_dest}/#{style}.svg"
+    fname = "#{sprite_dest}/#{style}-pro.svg"
     next unless File.file?(fsource)
 
     File.open(fsource) do |source_file|
       contents = source_file.read
-      contents.gsub!(/<symbol id="(?<id>.*)"/, "<symbol id=\"#{prefix}-\\k<id>\"") unless style == 'regular'
+      contents.gsub!(/<symbol id="(?<id>.*)"/, "<symbol id=\"#{prefix}-\\k<id>\"")
       File.open(fname, 'w+') { |f| f.write(contents) }
     end
   end
