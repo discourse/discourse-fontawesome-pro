@@ -19,7 +19,7 @@ after_initialize do
   prefix_mapping.each do |style, prefix|
     fsource = "#{sprite_source}/#{style}.svg"
     fname = "#{sprite_dest}/#{style}.svg"
-    next unless File.file?(fname)
+    next unless File.file?(fsource)
 
     File.open(fsource) do |source_file|
       contents = source_file.read
