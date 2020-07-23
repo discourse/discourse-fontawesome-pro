@@ -5,7 +5,7 @@ export default {
   initialize() {
     withPluginApi("0.8.14", api => {
       let style = Discourse.SiteSettings.fa_icon_style;
-      if (style == "regular") {
+      if (style === "regular") {
         return;
       }
       let prefixMap = { solid: "fas", light: "fal", duotone: "fad" };
