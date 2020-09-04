@@ -3,7 +3,7 @@ import { withPluginApi } from "discourse/lib/plugin-api";
 export default {
   name: "replace-icons",
   initialize() {
-    withPluginApi("0.8.14", api => {
+    withPluginApi("0.8.14", (api) => {
       let style = Discourse.SiteSettings.fa_icon_style;
       if (style === "regular") {
         return;
@@ -162,10 +162,10 @@ export default {
         "user-times",
         "users",
         "wrench",
-        "spinner"
-      ].forEach(icon => {
+        "spinner",
+      ].forEach((icon) => {
         api.replaceIcon(`${icon}`, `${prefix}-${icon}`);
       });
     });
-  }
+  },
 };
