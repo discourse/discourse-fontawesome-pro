@@ -4,8 +4,10 @@
   "repository": "git@github.com:discourse/discourse-fontawesome-pro.git",
   "author": "Discourse",
   "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^5.13.0"
+  },
   "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.13.0",
     "eslint-config-discourse": "^1.1.3"
   }
 }
