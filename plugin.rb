@@ -8,6 +8,8 @@
 
 register_asset 'stylesheets/common/fontawesome-pro.scss'
 
+require File.expand_path('lib/register_icons.rb', __dir__)
+
 after_initialize do
   prefix_mapping = { 'brands' => 'fab',
                      'light' => 'fal',
@@ -15,7 +17,8 @@ after_initialize do
                      'duotone' => 'fad',
                      'solid' => 'fas' }
   sprite_source = "#{Rails.root}/plugins/discourse-fontawesome-pro/node_modules/@fortawesome/fontawesome-pro/sprites"
-  sprite_dest = "#{Rails.root}/plugins/discourse-fontawesome-pro/svg-icons"
+  sprite_dest = "#{Rails.root}/vendor/assets/svg-icons/fontawesome-pro"
+  FileUtils.mkdir_p(sprite_dest) unless Dir.exist?(sprite_dest)
   prefix_mapping.each do |style, prefix|
     fsource = "#{sprite_source}/#{style}.svg"
     fname = "#{sprite_dest}/#{style}-pro.svg"
@@ -25,6 +28,12 @@ after_initialize do
       contents = source_file.read
       contents.gsub!(/<symbol id="(?<id>.*)"/, "<symbol id=\"#{prefix}-\\k<id>\"")
       File.open(fname, 'w+') { |f| f.write(contents) }
+    end
+  end
+
+  %w[fal far fad fas].each do |style|
+    RegisterIcons.icon_replacements.each do |icon|
+      register_svg_icon "#{style}-#{icon}"
     end
   end
 end
