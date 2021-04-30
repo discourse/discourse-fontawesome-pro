@@ -2,9 +2,9 @@ import { withPluginApi } from "discourse/lib/plugin-api";
 
 export default {
   name: "replace-icons",
-  initialize() {
+  initialize(container) {
     withPluginApi("0.8.14", (api) => {
-      let style = Discourse.SiteSettings.fa_icon_style;
+      let style = container.lookup("site-settings:main").fa_icon_style;
       if (style === "regular") {
         return;
       }
