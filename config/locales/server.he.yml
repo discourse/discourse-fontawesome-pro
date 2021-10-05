@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 he:
+  site_settings:
+    fa_icon_style: "מחליף את הסמלים של Discourse בסגנון FontAwesome Pro חלופי"
