@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  site_settings:
+    fa_icon_style: "将 Discourse 图标替换为备用 FontAwesome Pro 样式"
