@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 ja:
+  site_settings:
+    fa_icon_style: "Discourse アイコンを FrontAwesome Pro 代替スタイルに置き換えます"
