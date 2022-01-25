@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 fi:
+  site_settings:
+    fa_icon_style: "Korvaa Discoursen kuvakkeet vaihtoehtoisella FontAwesome Pro -tyylillä"
