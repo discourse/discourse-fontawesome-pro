@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 pl_PL:
+  site_settings:
+    fa_icon_style: "Zastępuje ikony Discourse'a alternatywnym stylem FontAwesome Pro"
