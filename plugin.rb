@@ -5,6 +5,7 @@
 # version: 0.1
 # authors: Jeff Wong
 # transpile_js: true
+# url: https://github.com/discourse/discourse-fontawesome-pro
 
 register_asset 'stylesheets/common/fontawesome-pro.scss'
 
