@@ -5,4 +5,4 @@ if ! [ -x "$(command -v yarn)" ]; then
         apt update &&\
         apt install -y yarn nodejs
 fi
-yarn install
+cd fontawesome-workspace && yarn install

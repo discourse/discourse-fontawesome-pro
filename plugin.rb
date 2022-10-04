@@ -17,7 +17,7 @@ after_initialize do
                      'regular' => 'far',
                      'duotone' => 'fad',
                      'solid' => 'fas' }
-  sprite_source = "#{Rails.root}/plugins/discourse-fontawesome-pro/node_modules/@fortawesome/fontawesome-pro/sprites"
+  sprite_source = "#{Rails.root}/plugins/discourse-fontawesome-pro/fontawesome-workspace/node_modules/@fortawesome/fontawesome-pro/sprites"
   sprite_dest = "#{Rails.root}/vendor/assets/svg-icons/fontawesome-pro"
   FileUtils.mkdir_p(sprite_dest) unless Dir.exist?(sprite_dest)
   prefix_mapping.each do |style, prefix|
