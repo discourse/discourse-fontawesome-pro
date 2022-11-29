@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 nl:
+  site_settings:
+    fa_icon_style: "Vervangt Discourse-pictogrammen door een alternatieve FontAwesome Pro-stijl"
