@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 tr_TR:
+  site_settings:
+    fa_icon_style: "Discourse simgelerini alternatif bir FontAwesome Pro stiliyle değiştirir"
