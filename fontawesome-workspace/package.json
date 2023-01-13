@@ -5,6 +5,6 @@
   "author": "Discourse",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-pro": "^5.13.0"
+    "@fortawesome/fontawesome-pro": "^6.2.1"
   }
 }
