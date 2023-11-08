@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 # name: discourse-fontawesome-pro
-# about: Install fontawesome pro icons for Discourse
+# about: Allows the use of Font Awesome Pro icons.
+# meta_topic_id: 150871
 # version: 0.1
 # authors: Jeff Wong
 # transpile_js: true
