@@ -8,7 +8,7 @@ This requires a few extra step to enable:
 
 First, you will need to set up an additional env var containing your font awesome pro license key: `DISCOURSE_FONTAWESOME_AUTH_TOKEN`
 
-`yarn install` also needs to be called during initialization, as an additional "after_code" hook. This downloads and adds the fontawesome pro SVGs on build.
+`pnpm install` also needs to be called during initialization, as an additional "after_code" hook. This downloads and adds the fontawesome pro SVGs on build.
 
 Here is an example install in `app.yml`:
 
