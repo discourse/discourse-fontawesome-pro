@@ -67,8 +67,8 @@ module RegisterIcons
       ellipsis
       ellipsis-vertical
       envelope
-      fast-backward
-      fast-forward
+      backward-fast
+      forward-fast
       file
       file-lines
       filter
@@ -128,7 +128,7 @@ module RegisterIcons
       square-check
       square-envelope
       square-plus
-      sync
+      arrows-rotate
       table
       table-columns
       tag
@@ -141,7 +141,7 @@ module RegisterIcons
       truck-medical
       tv
       unlock
-      unlock-alt
+      unlock-keyhole
       up-down
       up-right-from-square
       upload
