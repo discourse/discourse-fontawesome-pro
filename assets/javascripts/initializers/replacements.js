@@ -87,7 +87,7 @@ export default {
         "gavel",
         "gear",
         "globe",
-        "globe-americas",
+        "earth-americas",
         "hand-point-right",
         "handshake-angle",
         "heading",
