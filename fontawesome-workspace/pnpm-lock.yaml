@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@fortawesome/fontawesome-pro':
+        specifier: ^6.6.0
+        version: 6.7.2
+
+packages:
+
+  '@fortawesome/fontawesome-pro@6.7.2':
+    resolution: {integrity: sha512-5ZocZMRSZ0ECojDoRMJji6jHTq4ymc4LaaKrYCY55Lir2GxFRBrsm27r2sKQWjIkaVYZ3tbgjMeXb3aFbSo0Vw==, tarball: https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/6.7.2/fontawesome-pro-6.7.2.tgz}
+    engines: {node: '>=6'}
+
+snapshots:
+
+  '@fortawesome/fontawesome-pro@6.7.2': {}
