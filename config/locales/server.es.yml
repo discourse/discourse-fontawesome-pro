@@ -1,9 +1,3 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 es:
   site_settings:
     fa_icon_style: "Reemplaza los iconos de Discourse con un estilo alternativo de FontAwesome Pro"
