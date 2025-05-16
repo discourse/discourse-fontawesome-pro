@@ -3,9 +3,12 @@
 module RegisterIcons
   def self.icon_replacements
     %w[
+      a
       address-book
+      align-left
       anchor
       angle-down
+      angle-left
       angle-right
       angle-up
       angles-down
@@ -14,12 +17,15 @@ module RegisterIcons
       angles-up
       arrow-down
       arrow-left
+      arrow-right
       arrow-rotate-left
       arrow-rotate-right
       arrow-up
+      arrows-rotate
       asterisk
       at
       backward
+      backward-fast
       backward-step
       ban
       bars
@@ -31,9 +37,12 @@ module RegisterIcons
       book
       book-open-reader
       bookmark
+      bookmark-delete
       box-archive
       briefcase
+      bullseye
       calendar-days
+      calendar-plus
       caret-down
       caret-left
       caret-right
@@ -48,47 +57,72 @@ module RegisterIcons
       chevron-up
       circle
       circle-check
+      circle-chevron-down
+      circle-dot
       circle-exclamation
       circle-half-stroke
       circle-info
       circle-minus
       circle-plus
       circle-question
+      circle-user
       circle-xmark
+      clock
+      clock-rotate-left
+      cloud-arrow-down
+      cloud-arrow-up
       code
       comment
+      comments
       compress
       copy
+      copyright
       crosshairs
       cube
       desktop
+      diagram-project
       discourse-bookmark-clock
       download
+      earth-americas
       ellipsis
       ellipsis-vertical
       envelope
-      backward-fast
-      forward-fast
+      eye
+      eye-slash
+      face-frown
+      face-meh
+      face-smile
       file
       file-lines
       filter
       flag
+      flask
       folder
       folder-open
       forward
+      forward-fast
       forward-step
       gavel
       gear
+      gift
       globe
-      earth-americas
+      grip-lines
       hand-point-right
       handshake-angle
+      hashtag
       heading
       heart
+      hourglass-start
       house
       id-card
+      image
+      images
+      inbox
       italic
       key
+      keyboard
+      language
+      layer-group
       left-right
       link
       link-slash
@@ -99,11 +133,17 @@ module RegisterIcons
       location-dot
       lock
       magnifying-glass
+      magnifying-glass-minus
+      magnifying-glass-plus
       microphone-slash
       minus
       mobile-screen-button
+      moon
       paintbrush
+      palette
       paper-plane
+      pause
+      pen-to-square
       pencil
       play
       plug
@@ -113,29 +153,42 @@ module RegisterIcons
       question
       quote-left
       quote-right
+      rectangle-list
       reply
       right-from-bracket
       right-left
       right-to-bracket
+      robot
       rocket
       rotate
+      screwdriver-wrench
+      scroll
       share
       shield-halved
       shower
       shuffle
       signal
+      sliders
       spinner
+      square
       square-check
       square-envelope
+      square-full
       square-plus
-      arrows-rotate
+      star
+      sun
       table
+      table-cells
       table-columns
       tag
+      tags
       temperature-three-quarters
       thumbs-down
       thumbs-up
       thumbtack
+      tippy-rounded-arrow
+      toggle-off
+      toggle-on
       trash-can
       triangle-exclamation
       truck-medical
@@ -146,6 +199,9 @@ module RegisterIcons
       up-right-from-square
       upload
       user
+      user-check
+      user-gear
+      user-group
       user-pen
       user-plus
       user-secret
