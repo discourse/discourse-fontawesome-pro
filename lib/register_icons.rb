@@ -67,6 +67,7 @@ module RegisterIcons
       circle-question
       circle-user
       circle-xmark
+      clipboard
       clock
       clock-rotate-left
       cloud-arrow-down
