@@ -1,5 +1,5 @@
 plugins:
-  fa_icon_enabled:
+  fontawesome_pro_icons_enabled:
     default: true
     client: true
   fa_icon_style:

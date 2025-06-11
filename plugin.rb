@@ -7,7 +7,7 @@
 # authors: Jeff Wong
 # url: https://github.com/discourse/discourse-fontawesome-pro
 
-enabled_site_setting :fa_icon_enabled
+enabled_site_setting :fontawesome_pro_icons_enabled
 
 register_asset "stylesheets/common/fontawesome-pro.scss"
 
