@@ -1,4 +1,7 @@
 plugins:
+  fontawesome_pro_icons_enabled:
+    default: true
+    client: true
   fa_icon_style:
     default: "regular"
     client: true

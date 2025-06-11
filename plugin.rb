@@ -7,6 +7,8 @@
 # authors: Jeff Wong
 # url: https://github.com/discourse/discourse-fontawesome-pro
 
+enabled_site_setting :fontawesome_pro_icons_enabled
+
 register_asset "stylesheets/common/fontawesome-pro.scss"
 
 require File.expand_path("lib/register_icons.rb", __dir__)
