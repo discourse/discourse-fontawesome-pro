@@ -99,6 +99,7 @@ module RegisterIcons
       flask
       folder
       folder-open
+      font
       forward
       forward-fast
       forward-step
