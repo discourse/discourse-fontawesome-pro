@@ -5,3 +5,6 @@
 # https://translate.discourse.org/
 
 fa_IR:
+  site_settings:
+    fontawesome_pro_icons_enabled: "فعال‌سازی نمادهای جایگزین از FontAwesome Pro"
+    fa_icon_style: "جایگزینی نمادهای Discourse با یک سبک جایگزین FontAwesome Pro"
