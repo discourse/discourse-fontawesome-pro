@@ -6,4 +6,5 @@
 
 zh_CN:
   site_settings:
+    fontawesome_pro_icons_enabled: "启用 FontAwesome Pro 中的备用图标"
     fa_icon_style: "将 Discourse 图标替换为备用 FontAwesome Pro 样式"

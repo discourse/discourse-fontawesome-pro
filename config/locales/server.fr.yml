@@ -6,4 +6,5 @@
 
 fr:
   site_settings:
+    fontawesome_pro_icons_enabled: "Activer les icônes alternatives de FontAwesome Pro"
     fa_icon_style: "Remplace les icônes Discourse par un autre style FontAwesome Pro"
