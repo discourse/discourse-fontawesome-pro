@@ -6,4 +6,5 @@
 
 ja:
   site_settings:
+    fontawesome_pro_icons_enabled: "FontAwesome Pro の代替アイコンを有効にする"
     fa_icon_style: "Discourse アイコンを FrontAwesome Pro 代替スタイルに置き換えます"

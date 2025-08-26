@@ -6,4 +6,5 @@
 
 fi:
   site_settings:
+    fontawesome_pro_icons_enabled: "Ota käyttöön vaihtoehtoiset kuvakkeet FontAwesome Prosta"
     fa_icon_style: "Korvaa Discoursen kuvakkeet vaihtoehtoisella FontAwesome Pro -tyylillä"
