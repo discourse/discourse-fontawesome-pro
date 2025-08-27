@@ -6,4 +6,5 @@
 
 tr_TR:
   site_settings:
+    fontawesome_pro_icons_enabled: "FontAwesome Pro'dan alternatif simgeleri etkinleştirin"
     fa_icon_style: "Discourse simgelerini alternatif bir FontAwesome Pro stiliyle değiştirir"
