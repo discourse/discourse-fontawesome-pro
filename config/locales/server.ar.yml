@@ -6,4 +6,5 @@
 
 ar:
   site_settings:
+    fontawesome_pro_icons_enabled: "تفعيل الرموز البديلة من FontAwesome Pro"
     fa_icon_style: "يستبدل أيقونات Discourse بنمط FontAwesome Pro بديل"

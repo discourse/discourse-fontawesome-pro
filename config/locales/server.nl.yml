@@ -6,4 +6,5 @@
 
 nl:
   site_settings:
+    fontawesome_pro_icons_enabled: "Alternatieve pictogrammen van FontAwesome Pro inschakelen"
     fa_icon_style: "Vervangt Discourse-pictogrammen door een alternatieve FontAwesome Pro-stijl"
