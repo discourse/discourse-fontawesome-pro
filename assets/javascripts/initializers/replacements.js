@@ -3,7 +3,7 @@ import { withPluginApi } from "discourse/lib/plugin-api";
 export default {
   name: "replace-icons",
   initialize(container) {
-    withPluginApi("0.8.14", (api) => {
+    withPluginApi((api) => {
       let style = container.lookup("service:site-settings").fa_icon_style;
       if (style === "regular") {
         return;
