@@ -27,7 +27,10 @@ export default {
       const stylePrefix = stylePrefixMap[style];
       const familyPrefix = familyPrefixMap[family];
 
-      const iconPrefix =  familyPrefix === "" ?  `${stylePrefix}` : `${familyPrefix}-${stylePrefix}`;
+      const iconPrefix =
+        familyPrefix === ""
+          ? `${stylePrefix}`
+          : `${familyPrefix}-${stylePrefix}`;
 
       [
         "a",
