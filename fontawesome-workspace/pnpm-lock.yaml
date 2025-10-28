@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       '@fortawesome/fontawesome-pro':
-        specifier: ^6.6.0
-        version: 6.7.2
+        specifier: ^7.1.0
+        version: 7.1.0
 
 packages:
 
-  '@fortawesome/fontawesome-pro@6.7.2':
-    resolution: {integrity: sha512-5ZocZMRSZ0ECojDoRMJji6jHTq4ymc4LaaKrYCY55Lir2GxFRBrsm27r2sKQWjIkaVYZ3tbgjMeXb3aFbSo0Vw==, tarball: https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/6.7.2/fontawesome-pro-6.7.2.tgz}
+  '@fortawesome/fontawesome-pro@7.1.0':
+    resolution: {integrity: sha512-+UQYoUEJjsIpMFolIs/dBpy4j9L6QRrD041dL0zzHxdSXeEZqJ8EGzmW9Qsrb4bXePxOoa2vY/QSEre2flsJ3w==}
     engines: {node: '>=6'}
 
 snapshots:
 
-  '@fortawesome/fontawesome-pro@6.7.2': {}
+  '@fortawesome/fontawesome-pro@7.1.0': {}

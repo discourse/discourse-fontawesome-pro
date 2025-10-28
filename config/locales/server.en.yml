@@ -2,3 +2,4 @@ en:
   site_settings:
     fontawesome_pro_icons_enabled: "Enable alternate icons from FontAwesome Pro"
     fa_icon_style: "Replaces Discourse icons with an alternate FontAwesome Pro style"
+    fa_icon_family: "Select the FontAwesome Pro style icon family you want to use"

@@ -4,12 +4,31 @@ export default {
   name: "replace-icons",
   initialize(container) {
     withPluginApi((api) => {
-      let style = container.lookup("service:site-settings").fa_icon_style;
-      if (style === "regular") {
+      const style = container.lookup("service:site-settings").fa_icon_style;
+      const family = container.lookup("service:site-settings").fa_icon_family;
+      if (family === "classic" && style === "regular") {
         return;
       }
-      let prefixMap = { solid: "fas", light: "fal", duotone: "fad" };
-      let prefix = prefixMap[style];
+
+      const stylePrefixMap = {
+        regular: "far",
+        solid: "fas",
+        light: "fal",
+        thin: "fat",
+      };
+
+      const familyPrefixMap = {
+        classic: "",
+        sharp: "fash",
+        duotone: "fad",
+        "sharp-duotone": "fashd",
+      };
+
+      const stylePrefix = stylePrefixMap[style];
+      const familyPrefix = familyPrefixMap[family];
+
+      const iconPrefix =  familyPrefix === "" ?  `${stylePrefix}` : `${familyPrefix}-${stylePrefix}`;
+
       [
         "a",
         "address-book",
@@ -222,7 +241,7 @@ export default {
         "wrench",
         "xmark",
       ].forEach((icon) => {
-        api.replaceIcon(`${icon}`, `${prefix}-${icon}`);
+        api.replaceIcon(`${icon}`, `${iconPrefix}-${icon}`);
       });
 
       const additionalReplacements = {
@@ -268,7 +287,7 @@ export default {
 
       Object.entries(additionalReplacements).forEach(([key, value]) => {
         value = value.replace("far-", "");
-        api.replaceIcon(key, `${prefix}-${value}`);
+        api.replaceIcon(key, `${iconPrefix}-${value}`);
       });
     });
   },
