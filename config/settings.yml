@@ -10,4 +10,13 @@ plugins:
       - regular
       - solid
       - light
+      - thin
+  fa_icon_family:
+    default: "classic"
+    client: true
+    type: enum
+    choices:
+      - classic
+      - sharp
+      - sharp-duotone
       - duotone
