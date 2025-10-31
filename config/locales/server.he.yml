@@ -8,3 +8,4 @@ he:
   site_settings:
     fontawesome_pro_icons_enabled: "הפעלת סמלים חלופיים מ־FontAwesome Pro"
     fa_icon_style: "מחליף את הסמלים של Discourse בסגנון FontAwesome Pro חלופי"
+    fa_icon_family: "נא לבחור את משפחת סמלי הסגנון של FontAwesome Pro לשימוש"
