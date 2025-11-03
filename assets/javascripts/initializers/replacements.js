@@ -6,7 +6,7 @@ export default {
     withPluginApi((api) => {
       const style = container.lookup("service:site-settings").fa_icon_style;
       const family = container.lookup("service:site-settings").fa_icon_family;
-      if (family === "classic" && style === "regular") {
+      if (family === "classic" && style === "solid") {
         return;
       }
 
