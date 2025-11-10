@@ -251,7 +251,6 @@ export default {
         "d-chat": "comment",
         "d-tracking": "bell",
         "d-regular": "far-bell",
-        "d-watching-first": "discourse-bell-one",
         "d-drop-expanded": "caret-down",
         "d-drop-collapsed": "caret-right",
         "d-unliked": "far-heart",
