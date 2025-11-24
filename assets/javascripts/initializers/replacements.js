@@ -112,7 +112,6 @@ export default {
         "cube",
         "desktop",
         "diagram-project",
-        "discourse-bookmark-clock",
         "download",
         "earth-americas",
         "ellipsis",
