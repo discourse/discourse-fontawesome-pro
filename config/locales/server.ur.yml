@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ur:
+  site_settings:
+    fontawesome_pro_icons_enabled: "FontAwesome Pro سے متبادل آئیکنز فعال کریں"
+    fa_icon_style: "Discourse کے آئیکنز کو متبادل FontAwesome Pro کی طرز سے تبدیل کرتا ہے"
+    fa_icon_family: "وہ FontAwesome Pro اسٹائل آئیکن فیملی منتخب کریں جو آپ استعمال کرنا چاہتے ہیں"
