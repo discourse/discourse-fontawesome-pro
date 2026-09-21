@@ -83,7 +83,21 @@ after_initialize do
     fashd-fat
   ]
 
-  icon_styles.each do |style|
-    RegisterIcons.icon_replacements.each { |icon| register_svg_icon "#{style}-#{icon}" }
+  solid_sprite = "#{sprite_source}/solid.svg"
+  pro_icon_ids = -> do
+    RegisterIcons
+      .icon_replacements(solid_sprite)
+      .product(icon_styles)
+      .map { |icon, style| "#{style}-#{icon}" }
   end
+
+  # Other plugins can register icons in their own after_initialize, so resolve the list lazily
+  # when the sprite is built. Older cores without icon sources resolve it now instead.
+  if respond_to?(:register_svg_icon_source)
+    register_svg_icon_source { pro_icon_ids.call }
+  else
+    pro_icon_ids.call.each { |icon| register_svg_icon icon }
+  end
+
+  add_to_serializer(:site, :fontawesome_pro_icons) { RegisterIcons.icon_replacements(solid_sprite) }
 end
