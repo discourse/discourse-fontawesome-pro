@@ -1,5 +1,11 @@
 en:
   site_settings:
     fontawesome_pro_icons_enabled: "Enable alternate icons from FontAwesome Pro"
+    fontawesome_auth_token: "Package token from your FontAwesome account. Discourse uses it to download the Pro icons in the background."
     fa_icon_style: "Replaces Discourse icons with an alternate FontAwesome Pro style"
     fa_icon_family: "Select the FontAwesome Pro style icon family you want to use"
+  dashboard:
+    problem:
+      fontawesome_pro_icons: "Font Awesome Pro icons can't be downloaded: %{error}. Make sure that the {{setting:fontawesome_auth_token}} is correct. Discourse checks again every day, and when you save the token."
+      fontawesome_pro_icons_env_token: "Font Awesome Pro icons can't be downloaded: %{error}. Make sure that the DISCOURSE_FONTAWESOME_AUTH_TOKEN environment variable is correct. Discourse checks again every day."
+      fontawesome_auth_token_missing: "Enter the {{setting:fontawesome_auth_token}} to use Font Awesome Pro icons."

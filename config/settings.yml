@@ -1,7 +1,10 @@
 plugins:
   fontawesome_pro_icons_enabled:
-    default: true
+    default: false
     client: true
+  fontawesome_auth_token:
+    default: ""
+    secret: true
   fa_icon_style:
     default: "regular"
     client: true
