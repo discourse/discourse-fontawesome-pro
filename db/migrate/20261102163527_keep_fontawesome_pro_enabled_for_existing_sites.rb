@@ -3,6 +3,7 @@
 class KeepFontawesomeProEnabledForExistingSites < ActiveRecord::Migration[8.1]
   def up
     return if !Migration::Helpers.existing_site?
+    return if GlobalSetting.try(:fontawesome_auth_token).blank?
 
     # 5 is the bool data_type
     execute <<~SQL
